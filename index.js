@@ -1,6 +1,6 @@
 const express = require('express');
 const https = require('https');
-const port = 8080;
+const port = 8070;
 const app = express();
 
 app.get('/', (req, res) => {
@@ -42,6 +42,7 @@ app.get('/', (req, res) => {
 			</g>
 			<g transform="translate(${width},0)">${badgeSvg}</g>
 		</svg>`;
+			res.contentType("image/svg+xml; charset=utf-8; api-version=5.0-preview.1");
 			res.send(contents);
 		});
 	});
