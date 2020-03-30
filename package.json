@@ -1,0 +1,23 @@
+{
+  "name": "badge-append",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamewave000/badge-append.git"
+  },
+  "author": "Andrew F.",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/flamewave000/badge-append/issues"
+  },
+  "homepage": "https://github.com/flamewave000/badge-append#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
